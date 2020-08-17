@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="../js/jquery-3.3.1.js"></script>
+
+    <script>
+        function updateStudent() {
+            var id = $("#id").val();
+            var name = $("#name").val();
+            var age = $("#age").val();
+            var sex = $("#sex").val();
+            $.ajax({
+                url: "../updateStudentByJson",
+                type: "post",
+                contentType: "application/json;charset=UTF-8",//此处的contentType表明body内是json数据
+                data: JSON.stringify({id: id, name: name, age: age, sex: sex}),//stringify表明接收的是json数据
+                dataType: "json",
+                success: function (data) {
+                    alert("data:" + data.name)
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+<h1>更新学生</h1>
+
+<form>
+    id:<input type="text" id="id"><br>
+    name:<input type="text" id="name"><br>
+    age:<input type="text" id="age"><br>
+    sex:<input type="text" id="sex"><br>
+
+    <input type="button" onclick="updateStudent()" value="更新">
+</form>
+</body>
+</html>

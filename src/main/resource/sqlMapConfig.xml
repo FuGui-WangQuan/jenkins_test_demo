@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!-- 在这里设置日志，则日志打印在控制态，否则按照配置打印文件中 -->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+    </settings>
+
+    <typeAliases>
+        <!--    <typeAlias type="com.baidu.entity.Student" alias="studenta"></typeAlias>
+          <typeAlias type="com.baidu.entity.User" alias="user"></typeAlias>
+     -->
+        <package name="com.zcy.spring.entity"/>
+    </typeAliases>
+</configuration>
