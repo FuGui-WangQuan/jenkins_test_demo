@@ -1,0 +1,10 @@
+2020-06-10 17:04:50,880 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-06-10 17:06:46,374 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-06-10 17:10:19,655 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-06-10 17:12:10,475 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-06-10 17:13:23,467 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-06-10 17:14:22,791 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-06-10 17:16:03,374 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-06-11 14:22:30,666 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-0} closing ...
+2020-06-11 14:24:30,945 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-0} closing ...
+2020-06-11 14:25:00,386 0      [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
